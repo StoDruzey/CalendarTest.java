@@ -1,3 +1,5 @@
+package exam;
+
 public class Exam02 {
     public static void main(String[] args) {
         // Задание 2. В американской армии считается несчастливым число 13, а в японской — 4.

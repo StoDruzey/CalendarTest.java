@@ -1,4 +1,4 @@
-package extra;
+package exam;
 
 import java.util.SplittableRandom;
 
