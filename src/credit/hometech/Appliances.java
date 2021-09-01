@@ -1,12 +1,12 @@
 package credit.hometech;
 
 public class Appliances {
-    private final double consump;
+    private final int consump;
     private final String name;
     private boolean status;
     private String type = "type";
 
-    public Appliances(double consump, String name) {
+    public Appliances(int consump, String name) {
         this.consump = consump;
         this.name = name;
     }
@@ -18,7 +18,7 @@ public class Appliances {
         status = false;
     }
 
-    public double getConsump() {
+    public Integer getConsump() {
         if(status) {
             return consump;
         } else return 0;
