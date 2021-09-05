@@ -55,15 +55,9 @@ public class Exam09 {
 
         // открываем итоговый файл и пишем в него числа
         try(BufferedWriter fw = new BufferedWriter(new FileWriter(fileOut))) {
-            digits.forEach(new Consumer<Integer>() {
-                @Override
-                public void accept(Integer dig) {
-                    try {fw.write(Integer.toString(dig) + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            });
+            for(Integer d : digits) {
+                fw.write(Integer.toString(d) + "\n");
+            }
         } catch(IOException ex) {
             System.out.println(ex.getMessage());
         }
