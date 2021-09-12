@@ -25,6 +25,4 @@ public class Flower {
         return lifetime;
     }
 }
-enum Color {
-    RED, WHITE, ROSE, YELLOW, VIOLET;
-}
+
