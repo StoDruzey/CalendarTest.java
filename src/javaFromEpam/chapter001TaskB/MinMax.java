@@ -1,7 +1,7 @@
 package javaFromEpam.chapter001TaskB;
 
-public class MinMax {
-    public int[] returnMinMax(int[] intArray) {
+public class MinMax implements Convertable {
+    public int[] returnConvertedNumbers(int[] intArray) {
         int[] arrMinMax = new int[2];
 //        int min = 2147483647, max = -2147483648;
         int min = intArray[0];

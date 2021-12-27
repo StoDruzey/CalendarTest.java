@@ -1,8 +1,8 @@
 package javaFromEpam.chapter001TaskB;
 
-public class ThreeDigitDif {
+public class ThreeDigitDif implements Convertable {
     public int k = 0;
-    public int[] returnThreeDigitDif (int[] intArray) {
+    public int[] returnConvertedNumbers (int[] intArray) {
         int[] arrResult = new int[intArray.length]; // массив для хранения результатов
         for (int i = 0; i < intArray.length; i++) {
             int check = intArray[i] / 100;
