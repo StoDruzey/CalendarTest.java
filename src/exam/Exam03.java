@@ -1,3 +1,5 @@
+package exam;
+
 public class Exam03 {
     public static void main(String[] args) {
         // Задание 3. В городе N проезд в трамвае осуществляется по бумажным отрывным билетам.
