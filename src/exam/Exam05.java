@@ -1,3 +1,5 @@
+package exam;
+
 import java.util.Locale;
 
 public class Exam05 {
